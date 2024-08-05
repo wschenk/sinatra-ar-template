@@ -1,5 +1,7 @@
 # Rakefile
-require "sinatra/activerecord/rake"
+require 'sinatra/activerecord'
+require 'sinatra/activerecord/rake'
+require './app'
 
 desc "Starts up a development server that autostarts when a file changes"
 task :dev do
